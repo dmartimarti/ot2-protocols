@@ -19,7 +19,7 @@ The next step is to clone the git repository to your own computer. Note that the
 git clone https://github.com/Opentrons/opentrons
 ```
 
-Next, enter to the folder you have created, and then, to the api folder inside it:
+Next, you have to go to the *api* folder inside *opentrons* folder:
 
 ```
 cd opentrons\api
@@ -30,4 +30,24 @@ Once there, you have to install the package with the following command:
 make install
 ```
 
-After a while (it could take long), and if no warnings have arised, you will have your library installed on your computer. 
+After a while (it could take a little bit long), and if no warnings have arised, you will have your library installed on your computer. You can run the tests to see that everything is running properly:
+
+```
+make test
+```
+
+After all this, and if everything is working properly, you have to be in the *api* directory and then start a Python environment through pipenv with the following command:
+
+```
+pipenv shell
+```
+
+If everything is correct, you should have this kind of promt in your terminal, *api* followed by a bunch of characters like this:
+> api-De4ySai-
+
+Start a Python sesion typing *python* into the terminal, and then try to load some functions from the opentrons package by typing: 
+
+```
+from opentrons import labware, instruments
+```
+If no warnings or errors arises, then, everything should be fine!
