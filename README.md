@@ -51,3 +51,12 @@ Start a Python sesion typing *python* into the terminal, and then try to load so
 from opentrons import labware, instruments
 ```
 If no warnings or errors arises, then, everything should be fine!
+
+### What you will find in this repo
+
+This repo is intended to have a collection of the protocols that we use in our laboratory, written for the Opentrons-2 machine. There are several folders:
+- **tests**: scripts to test your machine with very simple instructions like moving tips between positions in the tip rack, pipetting liquid between specific positions, and so on
+- **oficial**: some official scripts downloaded from the OP2 website
+- **protocols**: our own protocol codes
+
+ 
