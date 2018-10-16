@@ -44,7 +44,7 @@ def run_custom_protocol(
     # Distribute diluent across the plate to the the number of samples
     # And add diluent to one column after the number of samples for a blank
     pipette.distribute(diluent_volume, trough['A1'], plate.columns(
-        '2', to=(num_of_dilutions+1)))
+        '2', to = (num_of_dilutions + 1)))
 
     # Dilution of samples across the 96-well flat bottom plate
     pipette.pick_up_tip(presses = 3, increment = 1)
