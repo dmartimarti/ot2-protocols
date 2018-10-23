@@ -59,4 +59,16 @@ This repo is intended to have a collection of the protocols that we use in our l
 - **oficial**: some official scripts downloaded from the OP2 website
 - **protocols**: our own protocol codes
 
- 
+## Recommended actions!!
+
+For a proper functioning of the OP2, please READ:
+
+- Be sure that your machine is connected to your computer (turn on and off the lights, for example).
+- **Always** put the arm in *Home* position, even **between protocol runs**.
+- **Always** check that the labware is in the correct positions. And that it is the appropriate labware. 
+- **Always** make the *labware calibration*, even if it is the same protocol it would be highly recommendable to do so.
+- Tip calibration is not always needed, but surely it should be made between huge protocols or between different days.
+- **Always** review what the OP2 is going to do before clicking *Run protocol*, surprises are not always good. If there is something wrong, either the script is not valid, or you are using an invalid protocol.
+- It would be good that, if you don't know the protocol you are about to run (because it is the first time or you have edited the script), **stop and see** what it does once it starts. May be you want to press the *Cancel run* button before you unlock the (l)a(b)pocalypsis.
+- If you have followed all these points, everything should be OK and you can do the fun stuff while the OP2 does the boring and repetitive actions. 
+- *Bonus track: be sure that your machine always follows the [laws of robotics](https://en.wikipedia.org/wiki/Three_Laws_of_Robotics)*
