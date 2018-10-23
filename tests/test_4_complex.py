@@ -5,7 +5,7 @@ This code makes some complex transfers between positions
 Script by Dani Martinez, Oct - 2018
 '''
 
-from opentrons import labware, instruments
+from opentrons import labware, instruments, robot
 
 
 #### load labware

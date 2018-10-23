@@ -26,11 +26,11 @@ pipette.pick_up_tip(tiprack.cols('1'))
 
 ### loop to transfer 100 uL to each well
 for i in range(12):
-	pipette.transfer(100, reservoir.cols('1'), plate.cols(i), new_tip = 'never')
+	pipette.transfer(100, reservoir.cols('1'), plate.cols(i).bottom(7), new_tip = 'never')
 
 ### loop to transfer 30 uL from col i to col i+1
-for i in range(11):
-	pipette.transfer(30, plate.cols(i), plate.cols(i + 1), new_tip = 'never', mix_after=(3, 75))
+# for i in range(11):
+# 	pipette.transfer(30, plate.cols(i), plate.cols(i + 1), new_tip = 'never', mix_after=(3, 75))
 
 # return tips to the col 1
 pipette.return_tip(tiprack.cols('1'))
