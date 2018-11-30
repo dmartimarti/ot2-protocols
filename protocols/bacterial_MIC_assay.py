@@ -39,6 +39,7 @@ bacteria = labware.load('trough-12row', '1') # loads a trough-12row
 tiprack1 = labware.load('tiprack-200ul', '3') # loads a tip rack of 200 uL 
 tiprack2 = labware.load('tiprack-200ul', '6') # loads a tip rack of 200 uL 
 
+# pipette
 pipette = instruments.P300_Multi(mount = 'right', tip_racks = [tiprack1, tiprack2])
 
 
