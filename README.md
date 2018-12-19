@@ -61,6 +61,10 @@ This repo is intended to have a collection of the protocols that we use in our l
 - **oficial**: some official scripts downloaded from the OP2 website
 - **protocols**: our own protocol codes
 
+Inside **protocols**, there are now two different folders:
+- **Seeding**: protocols intended to seed a certain number of plates with different strains and with different strategies
+- **BGA**: that stands for Bacterial Growth Assays, where the OT2 fills a certain number of plates with different media (usually in a 12-through-row (they are not rows, but columns!)), and then seed them from a bacterial reservoir.
+
 ### 3. Recommended actions!!
 
 For a proper functioning of the OP2, please READ:
