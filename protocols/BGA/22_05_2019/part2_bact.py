@@ -32,10 +32,10 @@ pipette = instruments.P50_Multi(mount = 'right', tip_racks = [tiprack1, tiprack2
 
 
 for i in range(12):
-	pipette.transfer(180, bact.cols(i), plate1.cols(i), mix_before = (1, 40))
+	pipette.transfer(20, bact.cols(i), plate1.cols(i).bottom(4), mix_before = (1, 40))
 
 for i in range(12):
-	pipette.transfer(180, bact.cols(i), plate2.cols(i), mix_before = (1, 40))
+	pipette.transfer(20, bact.cols(i), plate2.cols(i).bottom(4), mix_before = (1, 40))
 
 for i in range(12):
-	pipette.transfer(180, bact.cols(i), plate3.cols(i), mix_before = (1, 40))
+	pipette.transfer(20, bact.cols(i), plate3.cols(i).bottom(4), mix_before = (1, 40))
